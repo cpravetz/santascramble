@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="14" tilewidth="256" tileheight="256" infinite="0" nextlayerid="17" nextobjectid="75">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <imagelayer id="16" name="background" offsetx="0" offsety="2047">
+  <image source="../img/background.png" width="2400" height="1536"/>
+  <properties>
+   <property name="anchorPoint" value="json:{&quot;x&quot;:0,&quot;y&quot;:1}"/>
+   <property name="ratio" type="float" value="4"/>
+   <property name="repeat" value="repeat-x"/>
+  </properties>
+ </imagelayer>
+ <layer id="1" name="Tile Layer 1" width="60" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,5,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,3,3,4,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,0,1,3,3,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,9,0,0,0,0,0,0,0,0,0,5,0,10,0,0,0,0,0,0,0,0,0,0,0,7,9,0,0,0,0,0,0,7,8,8,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,2,8,8,8,9,0,0,0,0,0,0,0,0,0,10,0,10,0,0,0,0,0,0,0,0,0,0,0,7,9,0,0,0,0,0,0,7,8,8,
+9,0,0,0,0,0,0,5,0,1,3,3,4,0,5,0,5,0,0,7,8,8,8,8,8,9,0,0,1,3,3,3,3,4,0,10,0,10,0,1,3,3,3,3,3,3,3,4,0,7,6,3,3,3,4,0,0,7,8,8,
+8,3,3,3,3,4,0,10,0,7,8,8,9,0,10,0,10,0,0,7,8,8,8,8,8,9,0,0,7,8,8,8,8,9,0,10,0,10,0,7,8,8,8,8,8,8,8,9,0,7,8,8,8,8,9,0,0,7,8,8,
+8,8,8,8,8,9,0,10,0,7,8,8,9,0,10,0,10,0,0,7,8,8,8,8,8,9,0,0,7,8,8,8,8,9,0,10,0,10,0,7,8,8,8,8,8,8,8,9,0,7,8,8,8,8,9,0,0,7,8,8,
+8,8,8,8,8,9,0,10,0,7,8,8,9,0,10,0,10,0,0,7,8,8,8,8,8,9,0,0,7,8,8,8,8,9,0,10,0,10,0,7,8,8,8,8,8,8,8,9,0,7,8,8,8,8,9,0,0,7,8,8
+</data>
+ </layer>
+ <objectgroup id="14" name="collision">
+  <object id="28" class="platform" x="190.476" y="2811.62">
+   <polyline points="0,0 1345.52,4.38095"/>
+  </object>
+  <object id="29" class="platform" x="0" y="2304">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="30" class="platform" x="1792" y="2560">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="31" class="platform" x="2304" y="2560">
+   <polyline points="0,0 1024,0"/>
+  </object>
+  <object id="33" class="platform" x="3584" y="2560">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="34" class="platform" x="4096" y="2560">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="36" class="platform" x="7168" y="2560">
+   <polyline points="0,0 1536,0"/>
+  </object>
+  <object id="37" class="platform" x="8960" y="2048">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="38" class="platform" x="6912" y="1280">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="39" class="platform" x="7680" y="1280">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="40" class="platform" x="8448" y="1280">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="41" class="platform" x="9984" y="2560">
+   <polyline points="0,0 2304,0"/>
+  </object>
+  <object id="42" class="platform" x="12544" y="1792">
+   <polyline points="0,0 512,0"/>
+  </object>
+  <object id="44" class="platform" x="14080" y="2560">
+   <polyline points="0,0 -1024,0 -1024,-768"/>
+  </object>
+  <object id="56" class="platform" x="4864" y="2304">
+   <polyline points="0,0 768,0"/>
+  </object>
+  <object id="57" class="platform" x="5376" y="1792">
+   <polyline points="0,0 1280,0"/>
+  </object>
+  <object id="58" class="wall" x="5427.27" y="1809.09">
+   <polyline points="0,0 -18.1818,495.455"/>
+  </object>
+  <object id="59" class="platform" x="9472" y="1792">
+   <polyline points="0,0 256,0"/>
+  </object>
+  <object id="60" class="platform" x="14592" y="1792">
+   <polyline points="0,0 768,0"/>
+  </object>
+  <object id="61" class="platform" x="3328.85" y="1530.77" width="1013.46" height="73.0769"/>
+  <object id="63" class="platform" x="3388.46" y="1609.62" width="896.154" height="176.923"/>
+  <object id="64" class="platform" x="9.61538" y="2313.46" width="177" height="532.692"/>
+ </objectgroup>
+ <objectgroup id="10" name="snowballs">
+  <object id="8" name="SnowballEntity" x="4598" y="1477" width="2058" height="145">
+   <properties>
+    <property name="animationspeed" type="int" value="75"/>
+    <property name="frameheight" type="int" value="145"/>
+    <property name="framewidth" type="int" value="240"/>
+    <property name="gravity" type="int" value="0"/>
+    <property name="velX" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="9" name="SnowballEntity" x="1534" y="2249" width="3090" height="145">
+   <properties>
+    <property name="animationspeed" type="int" value="75"/>
+    <property name="frameheight" type="int" value="145"/>
+    <property name="framewidth" type="int" value="240"/>
+    <property name="gravity" type="int" value="0"/>
+    <property name="velX" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="11" name="SnowmanEntity" x="9976" y="2297" width="771.615" height="256">
+   <properties>
+    <property name="frameheight" type="int" value="256"/>
+    <property name="framewidth" type="int" value="256"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="presents">
+  <object id="45" name="CoinEntity" x="7682" y="2304" width="256" height="256">
+   <properties>
+    <property name="image" value="blue-green-ribbon-3.png"/>
+   </properties>
+  </object>
+  <object id="48" name="CoinEntity" x="2054.55" y="2040.91" width="256" height="256">
+   <properties>
+    <property name="image" value="purple-yellow-ribbon-2.png"/>
+   </properties>
+  </object>
+  <object id="50" name="CoinEntity" x="3584" y="1347" width="256" height="189">
+   <properties>
+    <property name="image" value="yellow-blue-ribbon-2.png"/>
+   </properties>
+  </object>
+  <object id="74" name="CoinEntity" x="15105" y="1537" width="256" height="256">
+   <properties>
+    <property name="image" value="christmas-tree.png"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="Player">
+  <object id="23" name="mainPlayer" x="512" y="2562" width="125" height="256">
+   <properties>
+    <property name="frameheight" type="int" value="256"/>
+    <property name="framewidth" type="int" value="256"/>
+   </properties>
+  </object>
+  <object id="26" name="me.AdTrigger" x="15104" y="1535" width="256" height="256">
+   <properties>
+    <property name="event" value="level"/>
+    <property name="to" value="map2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

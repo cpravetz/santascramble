@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.seakaytee.snowgame" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Snow Scramble</name>
+    <description>Help Santa recover lost presents</description>
+    <author email="help@seakaytee.com" href="https://seakaytee.com">
+        Seakaytee
+    </author>
+	<preference name="Orientation" value="landscape"/>
+	<preference name="Fullscreen" value="true"/>
+	<content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <icon src="res/icon.png" />
+
+</widget>
